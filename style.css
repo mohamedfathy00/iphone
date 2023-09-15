@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(121, 177, 225);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 150px ;
+}
+.logo:hover{
+    color: blueviolet;
+}
+.logo{
+    text-decoration: none;
+    color: brown ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6em; 
+}
+.navigation a{
+    color: brown;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1em;
+    padding-left: 10px;
+}
+.navigation a:hover{
+    color: blueviolet;
+}
+section{
+    padding: 50px ;
+   
+}
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(capture2023_8_13_10_20.jpg) no-repeat; 
+background-size: cover;
+background-attachment: scroll;
+}
+.main h2{
+    color: rgb(58, 3, 3);
+    font-size: 0.9em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgba(58, 8, 3, 0.967);
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.main h3{
+    color: rgb(58, 11, 3);
+    font-size: 1.1em;
+    font-weight: 700;
+   letter-spacing: 1px;
+   margin-bottom: 20px;
+   
+}
+.mainbtn {
+    color: aliceblue;
+    background-color: rgba(64, 0, 255, 0.666);
+    font-size: .5em;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.9em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.mainbtn:hover{
+    background-color: rgba(13, 0, 255, 0.975);
+    transform: scale(1.2);
+}
+.socialicon{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1em;
+padding-right: 200px;
+}
+section{
+    display: flex;
+}
+
+
+
+
+
+
+    
